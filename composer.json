@@ -1,0 +1,29 @@
+{
+    "name": "biberltd/image-workshop-bundle",
+    "type": "symfony-bundle",
+    "description": "",
+    "keywords": [],
+    "homepage": "http://github.com/biberltd/ImageWorkShopBundle",
+    "license": "MIT",
+	"version": "master",
+    "authors": [
+        {
+            "name": "Can Berkol",
+            "email": "can.berkol@biberltd.com"
+        },
+		{
+            "name": "Said İmamoğlu",
+            "email": "said.imamoglu@biberltd.com"
+        }
+    ],
+    "require": {
+        "biberltd/core-bundle" : "~3.1",
+    },
+    "autoload": {
+        "psr-0": { "BiberLtd\\Bundle\\ImageWorkShopBundle": "" }
+
+    },
+    "minimum-stability": "dev",
+    "target-dir": "BiberLtd/Bundle/ImageWorkShopBundle"
+}
+
