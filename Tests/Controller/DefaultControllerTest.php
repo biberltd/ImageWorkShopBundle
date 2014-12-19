@@ -1,6 +1,6 @@
 <?php
 
-namespace BiberLtd\Bundle\ImageWorkShopBundle\Tests\Controller;
+namespace BiberLtd\Bundle\ImageWorkshopBundle\Tests\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 

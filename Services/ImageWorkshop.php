@@ -1,6 +1,6 @@
 <?php
 /**
- * ImageWorkShop Class
+ * ImageWorkshop Class
  *
  * This class is a wrapper for PHPImageWorkshop Library.
  *

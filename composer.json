@@ -3,7 +3,7 @@
     "type": "symfony-bundle",
     "description": "",
     "keywords": [],
-    "homepage": "http://github.com/biberltd/ImageWorkShopBundle",
+    "homepage": "http://github.com/biberltd/ImageWorkshopBundle",
     "license": "MIT",
 	"version": "master",
     "authors": [
@@ -20,10 +20,10 @@
         "biberltd/core-bundle" : "~3.1"
     },
     "autoload": {
-        "psr-0": { "BiberLtd\\Bundle\\ImageWorkShopBundle": "" }
+        "psr-0": { "BiberLtd\\Bundle\\ImageWorkshopBundle": "" }
 
     },
     "minimum-stability": "dev",
-    "target-dir": "BiberLtd/Bundle/ImageWorkShopBundle"
+    "target-dir": "BiberLtd/Bundle/ImageWorkshopBundle"
 }
 

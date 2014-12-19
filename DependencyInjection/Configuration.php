@@ -1,6 +1,6 @@
 <?php
 
-namespace BiberLtd\Bundle\ImageWorkShopBundle\DependencyInjection;
+namespace BiberLtd\Bundle\ImageWorkshopBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;

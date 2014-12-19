@@ -1,9 +1,9 @@
 <?php
 
-namespace BiberLtd\Bundle\ImageWorkShopBundle;
+namespace BiberLtd\Bundle\ImageWorkshopBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class BiberLtdImageWorkShopBundle extends Bundle
+class BiberLtdImageWorkshopBundle extends Bundle
 {
 }
