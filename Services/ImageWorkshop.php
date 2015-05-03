@@ -63,8 +63,9 @@
          *
          * @param           string              $text
          * @param           string              $fontPath
+         * @param           integer             $fontSize
          * @param           string              $fontColor          Hexadecimal
-         * @param           decimal             $textRotation
+         * @param           integer             $textRotation
          * @param           string              $backgroundColor
          *
          * @return          PIW::ImageWorkshopLayer | bool
@@ -142,8 +143,6 @@
          *
          * @since           1.0.0
          * @version         1.0.0
-         *
-         * @param           string            $imageString
          *
          * @return          PIW::ImageWorkshopLayer
          */

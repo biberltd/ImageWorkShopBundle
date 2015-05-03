@@ -17,7 +17,7 @@
         }
     ],
     "require": {
-        "biberltd/core-bundle" : "~3.1"
+        "biberltd/core-bundle" : "~3.3"
     },
     "autoload": {
         "psr-0": { "BiberLtd\\Bundle\\ImageWorkShopBundle": "" }
