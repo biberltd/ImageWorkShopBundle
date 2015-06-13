@@ -20,8 +20,10 @@
         "biberltd/core-bundle" : "~3.3"
     },
     "autoload": {
-        "psr-0": { "BiberLtd\\Bundle\\ImageWorkshopBundle": "" }
-
+        "psr-0": {
+			"BiberLtd\\Bundle\\ImageWorkshopBundle": "",
+			"PHPImageWorkshop": "src/"
+		}
     },
     "minimum-stability": "dev",
     "target-dir": "BiberLtd/Bundle/ImageWorkshopBundle"
