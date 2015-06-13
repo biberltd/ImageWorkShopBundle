@@ -22,7 +22,7 @@
   "autoload": {
     "psr-0": {
       "BiberLtd\\Bundle\\ImageWorkshopBundle": "",
-      "PHPImageWorkshop": "../../../src/"
+      "PHPImageWorkshop": "BiberLtd/Bundle/ImageWorkshopBundle/src/"
     }
   },
   "minimum-stability": "dev",
