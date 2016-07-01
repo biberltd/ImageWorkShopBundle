@@ -145,7 +145,7 @@ class ImageWorkshopLayer
         $this->width = imagesx($image);
         $this->height = imagesy($image);
         $this->image = $image;
-        $this->layers = $this->layerLevels = $this->layerPositions = array();
+        $this->layers = $this->layerLevels = $this->layerPositions = [];
         $this->clearStack();
     }
 
@@ -638,9 +638,9 @@ class ImageWorkshopLayer
         unset($this->layerPositions);
 
         $this->lastLayerId = 0;
-        $this->layers = array();
-        $this->layerLevels = array();
-        $this->layerPositions = array();
+        $this->layers = [];
+        $this->layerLevels = [];
+        $this->layerPositions = [];
         $this->highestLayerLevel = 0;
     }
     
@@ -1322,7 +1322,7 @@ class ImageWorkshopLayer
      */
     public function getResult($backgroundColor = null)
     {
-        $imagesToMerge = array();
+        $imagesToMerge = [];
         ksort($this->layerLevels);
 
         foreach ($this->layerLevels as $layerLevel => $layerId) {

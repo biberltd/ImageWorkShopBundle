@@ -39,7 +39,7 @@ class ImageWorkshop
      * @return bool|\PHPImageWorkshop\Core\ImageWorkshopLayer
      * @throws \PHPImageWorkshop\Exception\ImageWorkshopException
      */
-    public function initFromPath(\string $path)
+    public function initFromPath(string $path)
     {
         if (file_exists($path)) {
             return $this->iw = PIW::initFromPath($path);
@@ -57,7 +57,7 @@ class ImageWorkshop
      *
      * @return bool|\PHPImageWorkshop\Core\ImageWorkshopLayer
      */
-    public function initTextLayer(\string $text, \string $fontPath, \integer $fontSize = 13, \string $fontColor = 'ffffff', \float $textRotation = 0, \string $backgroundColor = null)
+    public function initTextLayer(string $text, string $fontPath, int $fontSize = 13, string $fontColor = 'ffffff', float $textRotation = 0, string $backgroundColor = null)
     {
         if (!file_exists($fontPath)) {
             return false;
@@ -72,7 +72,7 @@ class ImageWorkshop
      *
      * @return \PHPImageWorkshop\Core\ImageWorkshopLayer
      */
-    public function initVirginLayer(\integer $width = 100, \integer $height = 100, \string $backgroundColor = null)
+    public function initVirginLayer(int $width = 100, int $height = 100, string $backgroundColor = null)
     {
         return $this->iw = PIW::initVirginLayer($width, $height, $backgroundColor);
     }
@@ -99,7 +99,7 @@ class ImageWorkshop
      * @return \PHPImageWorkshop\Core\ImageWorkshopLayer
      * @throws \PHPImageWorkshop\Exception\ImageWorkshopException
      */
-    public function initFromString(\string $imageString)
+    public function initFromString(string $imageString)
     {
         return $this->iw = PIW::initFromString($imageString);
     }

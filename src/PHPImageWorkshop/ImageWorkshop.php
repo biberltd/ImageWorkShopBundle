@@ -1,5 +1,4 @@
 <?php
-
 namespace PHPImageWorkshop;
 
 use PHPImageWorkshop\Core\ImageWorkshopLayer as ImageWorkshopLayer;
