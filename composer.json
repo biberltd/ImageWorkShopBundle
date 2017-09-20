@@ -16,7 +16,7 @@
     }
   ],
   "require": {
-    "biberltd/core-bundle": "~3.4"
+    "biberltd/core-bundle": "~4.0"
   },
   "autoload": {
     "psr-0": {
